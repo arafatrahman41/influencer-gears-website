@@ -1,0 +1,27 @@
+/* medium device */
+@media screen and (max-width:920px) {
+    
+    .nav-menu ul{
+        gap: .7rem;
+    }
+}
+
+
+/* small device */
+@media screen and (max-width: 500px) {
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-title{
+        width: 100%;
+        margin: 2rem 0 1.4rem 0;
+        text-align: center;
+    }
+    .nav-menu{
+        width: 100%;
+    }
+}

@@ -1,3 +1,4 @@
+/* shared style start */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
@@ -14,10 +15,15 @@ body {
   width: 83%;
   margin: 0 auto;
 }
+/* shared style end */
+/* navigation style start */
 .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 4rem;
+  margin-bottom: 3.125rem;
+
 }
 .nav-title {
   width: 48%;
@@ -32,7 +38,10 @@ body {
 }
 .nav-menu ul {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: flex-end;
+  gap: 2rem;
+  white-space: nowrap;
   align-items: center;
 }
 .nav-menu ul li {
@@ -45,3 +54,4 @@ body {
   font-weight: 600;
   line-height: normal;
 }
+/* navigation style end */
