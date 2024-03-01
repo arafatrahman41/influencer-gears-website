@@ -65,6 +65,19 @@ body {
   font-weight: 600;
   line-height: normal;
 }
+.nav-container .nav-menu .shopping-cart{
+  position: relative;
+  margin-bottom: 1.8rem;
+}
+.nav-container .nav-menu .shopping-cart .fa-cart-shopping{
+  text-align: center;
+  line-height: 2rem;
+  width: 4rem;
+  height: 2rem;
+  background-color: #adadad;
+  border-radius: .5rem;
+  position: fixed;
+}
 /* navigation style end */
 /* banner style start */
 
@@ -247,7 +260,6 @@ margin-bottom: 1rem;
   width: 2rem;
   height: 2rem;
   object-fit: cover;
-  /* padding: .7rem; */
   border-radius: 50%;
 }
 /* footer style end */
