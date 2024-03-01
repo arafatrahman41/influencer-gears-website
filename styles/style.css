@@ -67,17 +67,17 @@ body {
   font-weight: 600;
   line-height: normal;
 }
-.nav-container .nav-menu .shopping-cart{
+.nav-container .nav-menu .shopping-cart {
   position: relative;
   margin-bottom: 1.8rem;
 }
-.nav-container .nav-menu .shopping-cart .fa-cart-shopping{
+.nav-container .nav-menu .shopping-cart .fa-cart-shopping {
   text-align: center;
   line-height: 2rem;
   width: 4rem;
   height: 2rem;
   background-color: #adadad;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   position: fixed;
 }
 /* navigation style end */
@@ -171,7 +171,7 @@ b {
   gap: 1.8rem;
   cursor: pointer;
 }
-.collection-container .collection-image .card:hover{
+.collection-container .collection-image .card:hover {
   transform: scale(1.5);
 }
 .collection-container .collection-image .card .rating-star .star {
@@ -188,7 +188,7 @@ b {
   border-radius: 5px;
   background: #fff;
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
-  transition:transform .7s ease-in-out 0.5s;
+  transition: transform 0.7s ease-in-out 0.5s;
   will-change: transform;
 }
 .collection-container .collection-image .card img {
@@ -235,36 +235,38 @@ b {
   font-weight: 700;
   margin-bottom: 1rem;
 }
-.featured-container .featured-content .featured-description p{
-  color: #6C6C6C;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-margin-bottom: 1rem;
+.featured-container .featured-content .featured-description p {
+  color: #6c6c6c;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 1rem;
 }
-.featured-container .featured-content .featured-description button{
+.featured-container .featured-content .featured-description button {
   border-radius: 0;
 }
 /* featured products style end */
 
 /* footer style start */
-.footer-content{
+.footer-content {
   padding: 3rem 0 3rem 0;
-  background-color: #0A0826;
-  color: #FFFFFF;
+  background-color: #0a0826;
+  color: #ffffff;
   text-align: center;
 }
-.footer-content h2 ,p , .icons{
+.footer-content h2,
+p,
+.icons {
   margin-bottom: 1rem;
   line-height: 2rem;
 }
-.footer-content .footer-icons{
+.footer-content .footer-icons {
   display: flex;
   justify-content: center;
   gap: 1rem;
 }
-.footer-content .footer-icons .icons{
-  background-color: #6C6C6C;
+.footer-content .footer-icons .icons {
+  background-color: #6c6c6c;
   width: 2rem;
   height: 2rem;
   object-fit: cover;
