@@ -113,6 +113,7 @@ b {
 /* banner style end */
 /* partnership style start */
 .brand-deals-container {
+  width: 77%;
   margin-top: 4.3rem;
 }
 .brand-deals-container hr {
@@ -139,6 +140,7 @@ b {
 
 /* collection style start */
 .collection-container {
+  width: 72%;
   margin-top: 9rem;
 }
 .collection-container > h2 {
@@ -150,7 +152,6 @@ b {
   margin-bottom: 1.8rem;
 }
 .collection-container .collection-image {
-  border: 2px solid blue;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.8rem;
@@ -165,13 +166,63 @@ b {
   gap: 0.5rem;
 }
 .collection-container .collection-image .card {
-  border: 2px solid green;
-  padding: .9rem;
+  padding: 0.9rem;
   border-radius: 5px;
   background: #fff;
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
 }
-.collection-container .collection-image .card img{
+.collection-container .collection-image .card img {
   width: 100%;
 }
+.collection-container .collection-button {
+  float: right;
+}
+.collection-container .collection-button button {
+  cursor: pointer;
+  border: none;
+  margin-top: 1.5rem;
+  background-color: transparent;
+  color: rgba(224, 44, 109, 0.87);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
 /* collection style end */
+/* featured products style start */
+.featured-container {
+  width: 78%;
+  margin-top: 3rem;
+}
+.featured-container .featured-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.featured-container .featured-content .featured-image {
+  width: 48%;
+}
+.featured-container .featured-content .featured-image img {
+  width: 100%;
+}
+.featured-container .featured-content .featured-description {
+  width: 47%;
+}
+.featured-container .featured-content .featured-description h2 {
+  color: #0a0826;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.featured-container .featured-content .featured-description p{
+  color: #6C6C6C;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+margin-bottom: 1rem;
+}
+.featured-container .featured-content .featured-description button{
+  border-radius: 0;
+}
+/* featured products style end */
